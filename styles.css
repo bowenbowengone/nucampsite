@@ -35,3 +35,8 @@ header h2 {
 .navbar {
     background-color: #901CAD;
 }
+
+.reserve {
+    background-color: teal;
+    color: white;
+}
