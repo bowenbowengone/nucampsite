@@ -29,6 +29,9 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
+                <div class="col-xs-12 col-md-4 col-xl-2">
+                    <a class="btn btn-lg reserve text-nowrap mt-4" href="#reserveSite" role="button">Reserve Campsite</a>
+                </div>
             </div>
         </div>
     </header>
@@ -98,16 +101,16 @@
                 </div>
         </div>
         <div class="row row-content align-items-center">
-            <div class="col-sm-6 mx-auto">
-                <div class="card">
+            <div class="col col-sm-6 mx-auto">
+                <div class="card" id="reserveSite">
                     <h3 class="card-header reserve">Reserve a Campsite</h3>
                         <div class="card-body">
-                            <form class="form-group col-form-label form-label" id="reserveForm">
-                                <div class="row">
+                            <form class="col-form-label form-label" id="reserveForm">
+                                <div class="form-group row">
                                     <label for ="campers" class="col-sm-6">Number of Campers</label>
-                                        <div class="col">
-                                        <select name="campers">
-                                            <option value="select" name="numCampers" id="numCampers">Select...</option>
+                                    <div class="col">
+                                        <select name="numCampers" id="numCampers" class="form-control">
+                                            <option value="select">Select...</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -115,15 +118,15 @@
                                             <option value="5">5</option>
                                             <option value="6">6</option>
                                         </select>
-                                        </div>
+                                    </div>
                                 </div>
-                                <div class="row">
-                                    <label for="date" class="col-sm-6">Date</label>
+                                <div class="form-group row">
+                                    <label for="date" class="col-xs-12 col-sm-6">Date</label>
                                         <div class="col">
-                                        <input type="date" name="date" id="date">
+                                        <input type="date" name="date" id="date" class="form-control">
                                         </div>
                                 </div>
-                                <div class="row">
+                                <div class="form-group row">
                                     <div class="col">
                                         <button type="submit" class="btn btn-primary">Search</button>
                                     </div>
