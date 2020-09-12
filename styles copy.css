@@ -1,0 +1,61 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-family: 'Hanalei', cursive;
+}
+
+h3 {
+    font-family: 'Caveat', cursive;
+}
+
+h2 {
+    color: #3046C5;
+    font-family: 'Caveat', cursive;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 10px;
+    background-image: linear-gradient(to top, #6150b1, #1c38d4, #60106B);
+    color: white;
+    margin: 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #901CAD;
+}
+
+.reserve {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.reserve:hover {
+    background-color: teal;
+}
+
+.carousel-caption {
+    background-color: rgba(34, 24, 71, 0.5);
+}
+
+.btnSearch {
+    padding-left: 45%;
+    padding-right: 45%;
+
+}
